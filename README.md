@@ -7,7 +7,9 @@ The messaging features TCP framing, the first 4 bytes of each message contain th
 
 How to use: 
 \GoChatApp go build
+
 \GoChatApp\server go run .\server.go
+
 \GoChatApp\client go run .\client.go (Repeat for as many clients as you want)
 
 Type /help for list of commands and then watch how the clients can interact and how the server behaves.
