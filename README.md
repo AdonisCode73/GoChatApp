@@ -6,6 +6,7 @@ This project features a central server which each client connects to. The server
 The messaging features TCP framing, the first 4 bytes of each message contain the length of the message in big endian format and thus the following X bytes are read in as the incoming message to be displayed.
 
 How to use: 
+
 \GoChatApp go build
 
 \GoChatApp\server go run .\server.go
